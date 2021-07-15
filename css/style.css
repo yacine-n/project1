@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color: white;
+  margin: 0;
+  padding: 0 50px;
+  line-height: 60px;
+  text-shadow: 3px 3px 3px black;
+}
+h3,article,div{
+  border: 1px solid white;
+  margin: 20px;
+}
+header{
+  background-color: lightcoral;
+  height: 70px;
+}
+header nav{
+  float: right;
+  position: relative;
+  top: -60px;
+}
+header nav ul{
+ margin: 0;
+  padding: 0;
+}
+header nav ul li{
+  display: inline-block;
+  padding: 15px;
+  /*border: 2px solid;*/
+}
+header nav ul li:hover{
+  background-color: black;
+}
+header nav ul li a{
+  line-height: 40px;
+ list-style: none;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+   font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+  text-transform: uppercase;
+  display: block;
+   width: 200px;
+}
+div{
+   background-color: black;
+  margin: 60px;
+}
+img{
+  width: 93%;
+  display: block;
+  margin: auto;
+}
+div article h3{
+  text-transform: uppercase;
+ text-align: center;
+  background-color: lightcoral;
+  text-shadow: 2px 2px 2px white;
+}
+h3{
+  background-color: lightcoral;
+  text-shadow: 2px 2px 2px white;
+  text-transform: uppercase;
+  text-align: center;
+}
+pre{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+}
+article{
+   text-align: justify;
+  padding: 20px;
+}
+div article nav ol li a{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
